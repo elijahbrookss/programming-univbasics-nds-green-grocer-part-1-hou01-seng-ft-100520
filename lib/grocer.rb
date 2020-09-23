@@ -22,10 +22,17 @@ def consolidate_cart(cart)
         }
         )
     else
+<<<<<<< HEAD
       new_cart.each{|item| if item[:item] == item_in_cart[:item] then item[:count] += 1 end}
     end
   end
   new_cart
+=======
+      
+    end
+  end
+  p new_cart
+>>>>>>> 67171c14a1ddf593c463fa05de7eb7f52783379e
 end
 
 
